@@ -11,15 +11,20 @@
     background-position: center;
 }
 .navbar{
-    width: 85%;
+    /*background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.7)), url(sizad.jpg);*/
+    /*background-color: aqua;*/
+    height: 30px;
+    background-repeat: no-repeat;
+    width: 100%;
     margin: auto;
-    margin-top: -30px;
+    margin-top: 44px;
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .logo{
-    width: 270px;
+    width: 350px;
     cursor: pointer;
 }
 .navbar ul li{
@@ -30,14 +35,14 @@
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #fff;
+    color: #cfad11;
     text-transform: uppercase;
 }
 .navbar ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: #009688;
+    background: #cfad11;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -55,7 +60,7 @@
     color: #fff;
 }
 .content h1{
-    font-size: 90px;
+    font-size: 70px;
     margin-top: 80px;
 }
 .content p{
@@ -70,7 +75,7 @@
     margin: 20px 10px;
     border-radius: 25px;
     font-weight: bold;
-    border: 2px solid #009688;
+    border: 2px solid #cfad11;
     background: transparent;
     color: #fff;
     cursor: pointer;
@@ -78,7 +83,7 @@
     overflow: hidden;
 }
 span{
-    background-color: #009688;
+    background-color: #cfad11;
     height: 100%;
     width: 0;
     border-radius: 25px;
@@ -127,7 +132,7 @@ button:hover{
     padding-bottom: 5px;
 }
 .row p{
-    color: #777;
+    color: #fff;
     font-size: 14px;
     font-weight: 22px;
     padding: 10px;
@@ -140,13 +145,16 @@ button:hover{
 .course-col{
     flex-basis: 31%;
     background-color: #fff3f3;
+    color: #fff;
+    background-image: url(engines.jpg);
+    background-size: 405px;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
 }
-.course-col h3{
+.course-col h2{
     text-align: center;
     font-weight: 600;
     margin: 10px 0;
@@ -155,7 +163,7 @@ html{
     scroll-behavior: smooth;
 }
 .course-col:hover{
-    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+    box-shadow: 0 0 35px 0px rgba(231, 188, 70, 0.2);
 }
 .cta{
     margin: 100px auto;
@@ -171,4 +179,86 @@ html{
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
+}
+.container{
+    width: 1000px;
+    margin: 50px auto;
+}
+.contact-box{
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+    color: #fff;
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.container p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+.contact-left button{
+    background: #1c00b5;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
+    cursor: pointer;
+    
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    color: #fff;
+    padding-top: 20px;
 }

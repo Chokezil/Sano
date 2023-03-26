@@ -6,7 +6,7 @@
 <body>
     <div class="banner">
         <div class="navbar">
-            <img src="Sano-marin.png" class="logo">
+            <img src="Sano_vit.svg" class="logo">
             <ul>
                 <li><a href="#">Hem</a></li>
                 <li><a href="#about">Tjänster</a></li>
@@ -16,18 +16,38 @@
             </ul>
         </div>
         <div class="content">
-            <h1>VI SERVAR DIN BÅT</h1>
+            <h1>Båtmekaniker på väg till dig</h1>
             <p>Våra erfarna båtmekaniker kommer till din båt och utför ett metikulöst jobb<br>till bästa pris</p>
             <div>
-                <a href="#about">
-                    <button type="button" class="btn-1"><span></span>Tjänster</button>
-                </a>
                 <a href="bokning.html">
                     <button type="button" class="btn-1"><span></span>Boka</button>
                 </a>
             </div>
         </div>
     </div>
+    <section id="about" class="about">
+        <h1>Tjänster</h1>
+        <div class="row">
+            <div class="course-col">
+                <h2>Service</h2>
+                <p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+            </div>
+            <div class="course-col">
+                <h2>Reparationer</h2>
+                <p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+            </div>
+            <div class="course-col">
+                <h2>Övrigt arbete</h2>
+                <p>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                </p>
+            </div>
+        </div>
+    </section>
     <section id="om-oss" class="om-oss">
         <h1>Om oss</h1>
             <p>Lorem Ipsum is simply dummy text of the printing and ty
@@ -35,6 +55,8 @@
             text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su
             rvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik
             e Aldus PageMaker including versions of Lorem Ipsum</p>
+            <br><br><br><br><b><br><br>
+        <h1>Vårt Team</h1>
         <div class="bilder">
             <div class="">
             <img src="bildnore.jpg" class="img-samuel">
@@ -48,39 +70,65 @@
             </div>
         </div>
     </section>
-    <section id="about" class="about">
-        <h1>Tjänster</h1>
-        <div class="row">
-            <div class="course-col">
-                <h3>Service</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and ty
-                    pesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su
-                    rvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik
-                    e Aldus PageMaker including versions of Lorem Ipsum</p>
-            </div>
-            <div class="course-col">
-                <h3>Oljebyte</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and ty
-                    pesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su
-                    rvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik
-                    e Aldus PageMaker including versions of Lorem Ipsum</p>
-            </div>
-            <div class="course-col">
-                <h3>Reparationer</h3>
-                <p>Lorem Ipsum is simply dummy text of the printing and ty
-                    pesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                    text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has su
-                    rvived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software lik
-                    e Aldus PageMaker including versions of Lorem Ipsum</p>
-            </div>
-        </div>
-    </section>
     <section class="cta" id="cta">
         <div class="kontaktaoss">
         <h1>Boka Service</h1>
-        <button type="button" class="btn-1"><span></span>Kontakta Oss</button>
+        <a href="#Kontakt">
+            <button type="button" class="btn-1"><span></span>Kontakta Oss</button>
+        </a>
+        </div>
+    </section>
+    <section id="Kontakt" class="Kontakt">
+        <div class="container">
+            <h1>Kontakta Oss</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing <br> and ty pesetting industry. Lorem Ipsum has been th</p>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Skicka förfrågan</h3>
+                    <form action="https://formspree.io/f/xoqznrpd" method="POST">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Namn</label>
+                                <input type="text" placeholder="Adam Nordström" name="Name">
+                            </div>
+                            <div class="input-group">
+                                <label>Telefonnummer</label>
+                                <input type="text" placeholder="+46735091096" name="Phone">
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="email" name="Email" id="email" placeholder="Adam.djur@gmail.com">
+                            </div>
+                            <div class="input-group">
+                                <label>Båtmotor</label>
+                                <input type="text" placeholder="Suzuki 300hk utombordare 2017" name="Motor">
+                            </div>
+                        </div>
+                        <label>Övrigt</label>
+                        <textarea rows="5" placeholder="Ditt meddelande"></textarea>
+                        <button type="submit" value="Submit">Skicka</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Kontaktuppgifter</h3>
+                    <table>
+                        <tr>
+                            <td>Email:</td>
+                            <td>Sano@marin.com</td>
+                        </tr>
+                        <tr>
+                            <td>Telefonnummer:</td>
+                            <td>+46-0735091096</td>
+                        </tr>
+                        <tr>
+                            <td>Adress:</td>
+                            <td>Toppsegelsgatan 1</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
         </div>
     </section>
 </body>
