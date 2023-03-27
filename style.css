@@ -146,7 +146,7 @@ button:hover{
     flex-basis: 31%;
     background-color: #fff3f3;
     color: #fff;
-    background-image: url(engines.jpg);
+    background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.1)), url(engines.jpg);
     background-size: 405px;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -168,7 +168,7 @@ html{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.7)), url(nycklar.jpg);
+    background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.1)), url(nycklar.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
