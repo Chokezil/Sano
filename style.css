@@ -6,7 +6,7 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Sano.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(IMG-5841.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -111,9 +111,9 @@ button:hover{
     justify-content:space-evenly;
 }
 .img-samuel{
-    width: 280px;
+    width: 200px;
     height: auto;
-    border: 8px solid #000000;
+    /*border: 8px solid #000000;*/
 }
 .om-oss h1{
     font-size: 36px;
@@ -142,7 +142,42 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-.course-col{
+.tjänster{
+    padding-top: 80px;
+    display: flex;
+    position: relative;
+    justify-content:space-evenly;
+    text-align: center;
+}
+.bildtext{
+    position: absolute;
+    top: 50%;
+    color: red;
+}
+
+.tjänster1{
+    width: 200px;
+    height: auto;
+}
+/*
+.bild1 h3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bild2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.bild3{
+    position: relative;
+    text-align: center;
+    color: white;
+}*/
+
+    /*border: 8px solid #000000;*/
+/*.course-col{
     flex-basis: 31%;
     background-color: #fff3f3;
     color: #fff;
@@ -153,7 +188,8 @@ button:hover{
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-}
+}*/
+
 .course-col h2{
     text-align: center;
     font-weight: 600;
@@ -194,7 +230,7 @@ html{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: #1c00b5;
+    background: #15008a;
     color: #fff;
 }
 .container h1{
@@ -231,10 +267,10 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #1c00b5;
+    color: #15008a;
 }
 .contact-left button{
-    background: #1c00b5;
+    background: #15008a;
     width: 100px;
     border: none;
     outline: none;
@@ -247,7 +283,7 @@ label{
     
 }
 .contact-left h3{
-    color: #1c00b5;
+    color: #15008a;
     font-weight: 600;
     margin-bottom: 30px;
 }
