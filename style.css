@@ -11,8 +11,6 @@
     background-position: center;
 }
 .navbar{
-    /*background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.7)), url(sizad.jpg);*/
-    /*background-color: aqua;*/
     height: 30px;
     background-repeat: no-repeat;
     width: 100%;
@@ -113,7 +111,6 @@ button:hover{
 .img-samuel{
     width: 200px;
     height: auto;
-    /*border: 8px solid #000000;*/
 }
 .om-oss h1{
     font-size: 36px;
@@ -142,24 +139,6 @@ button:hover{
     display: flex;
     justify-content: space-between;
 }
-.tjänster{
-    padding-top: 80px;
-    display: flex;
-    position: relative;
-    justify-content:space-evenly;
-    text-align: center;
-}
-.bildtext{
-    position: absolute;
-    top: 50%;
-    color: red;
-}
-
-.tjänster1{
-    width: 200px;
-    height: auto;
-}
-/*
 .bild1 h3{
     position: relative;
     text-align: center;
@@ -174,22 +153,20 @@ button:hover{
     position: relative;
     text-align: center;
     color: white;
-}*/
-
-    /*border: 8px solid #000000;*/
-/*.course-col{
+}
+.course-collar{
+    width: 27%;
+}
+.course-col{
     flex-basis: 31%;
     background-color: #fff3f3;
     color: #fff;
-    background-image: linear-gradient(rgba(0,0,0.7), rgba(0,0,0,0.1)), url(engines.jpg);
-    background-size: 405px;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
-}*/
-
+}
 .course-col h2{
     text-align: center;
     font-weight: 600;
