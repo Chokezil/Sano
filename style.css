@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 .banner{
     width: 100%;
@@ -10,6 +10,15 @@
     background-size: cover;
     background-position: center;
 }
+
+h4 {
+    font-weight: normal;
+}
+
+p {
+    font-weight: normal;
+}
+
 .navbar{
     height: 30px;
     background-repeat: no-repeat;
@@ -101,7 +110,7 @@ button:hover{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 .bilder{
     padding-top: 80px;
@@ -207,7 +216,7 @@ html{
 .contact-right{
     flex-basis: 40%;
     padding: 40px;
-    background: #15008a;
+    background: #0b004a;
     color: #fff;
 }
 .container h1{
@@ -244,10 +253,10 @@ textarea{
 label{
     margin-bottom: 6px;
     display: block;
-    color: #15008a;
+    color: #0b004a;
 }
 .contact-left button{
-    background: #15008a;
+    background: #0b004a;
     width: 100px;
     border: none;
     outline: none;
@@ -260,7 +269,7 @@ label{
     
 }
 .contact-left h3{
-    color: #15008a;
+    color: #0b004a;
     font-weight: 600;
     margin-bottom: 30px;
 }
