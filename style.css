@@ -126,6 +126,10 @@ button:hover{
     font-weight: 600;
     padding-bottom: 5px;
 }
+.om-oss p{
+    width: 60%;
+    margin: auto;
+}
 .about{
     width: 80%;
     margin: auto;
