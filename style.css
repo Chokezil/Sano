@@ -169,6 +169,7 @@ button:hover{
 }
 .course-collar{
     width: 27%;
+    margin: 30px;
 }
 .course-col{
     flex-basis: 31%;
@@ -248,7 +249,7 @@ input{
     padding-bottom: 5px;
 }
 textarea{
-    width: 100%;
+    width: 225%;
     border: 1px solid #ccc;
     outline: none;
     padding: 10px;
@@ -270,7 +271,6 @@ label{
     margin-top: 20px;
     box-shadow: 0px 5px 15px 0px rgba(28,0,181,0.3);
     cursor: pointer;
-    
 }
 .contact-left h3{
     color: #0b004a;
@@ -280,6 +280,7 @@ label{
 .contact-right h3{
     font-weight: 600;
     margin-bottom: 30px;
+    position: relative;
 }
 tr td:first-child{
     padding-right: 20px;
